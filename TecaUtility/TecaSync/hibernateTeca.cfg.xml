@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://dbserver.bncf.lan:5432/Teca</property>
+		<property name="hibernate.connection.username">massi</property>
+		<property name="hibernate.connection.password">G@l@ss1@</property>
+		<!-- 
+		<property name="hibernate.connection.username">Teca</property>
+		<property name="hibernate.connection.password">T3ca</property>
+		 -->
+		<property name="show_sql">false</property>
+		<property name="format_sql">false</property>
+		<property name="use_sql_comments">false</property>
+		<property name="hibernate.connection.pool_size">20</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <!-- 
+		<property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+         -->
+		
+		
+		<mapping resource="mx/teca2015/database/teca/entity/Audiogroup.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Biblioteche.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Cataloghicollegati.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Imggroup.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Ocrgroup.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblaudio.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblcont.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblimg.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblitem.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tbllegnot.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tbllegnotris.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblnoopac.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tbloainotizia.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tbloairequest.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tbloaiset.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblocr.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblrelris.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblris.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblrisimg.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblstoria.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tblvideo.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tlkpfruib.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tlkphost.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tlkpmime.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tlkptiporel.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tlkptypedigit.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Tmpfilexml.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Videogroup.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Viewrelrisunion.hbm.xml" />
+		<mapping resource="mx/teca2015/database/teca/entity/Viewrelunion.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

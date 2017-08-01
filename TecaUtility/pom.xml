@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mx.teca2015.tecaUtility</groupId>
+  <artifactId>TecaUtility</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>TecaSolr</module>
+  	<module>TecaAnalizeFolder</module>
+  	<module>TecaGenIIPImage</module>
+  	<module>TecaSync</module>
+  </modules>
+	<distributionManagement>
+		<repository>
+			<id>mvn-bncf</id>
+			<name>mvn-bncf-releases</name>
+			<url>http://maven.bncf.firenze.sbn.it/artifactory/libs-release-local</url>
+		</repository>
+	</distributionManagement>
+</project>
