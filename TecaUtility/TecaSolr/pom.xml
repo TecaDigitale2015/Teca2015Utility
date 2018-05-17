@@ -47,9 +47,9 @@
 		<dependency>
 			<groupId>it.bncf.magazziniDigitali.solr</groupId>
 			<artifactId>MagazziniDigitaliSolr</artifactId>
-			<version>2.0.9</version>
+			<version>2.0.14</version>
 		</dependency>
 	</dependencies>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
 	<groupId>mx.teca2015.tecaUtility.tecaSolr</groupId>
 </project>
