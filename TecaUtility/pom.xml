@@ -9,6 +9,8 @@
   	<module>TecaAnalizeFolder</module>
   	<module>TecaGenIIPImage</module>
   	<module>TecaSync</module>
+  	<module>TecaFindBookFromXls</module>
+  	<module>TecaRipristinoXlimage</module>
   </modules>
 	<distributionManagement>
 		<repository>

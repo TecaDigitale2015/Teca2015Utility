@@ -9,20 +9,14 @@
 		<property name="hibernate.connection.url">jdbc:postgresql://dbserver.prod.bncf.lan:5432/Teca</property>
 		<property name="hibernate.connection.username">Teca</property>
 		<property name="hibernate.connection.password">T3ca</property>
-		<!-- 
-		<property name="hibernate.connection.username">Teca</property>
-		<property name="hibernate.connection.password">T3ca</property>
-		 -->
 		<property name="show_sql">false</property>
 		<property name="format_sql">false</property>
 		<property name="use_sql_comments">false</property>
-		<property name="hibernate.connection.pool_size">20</property>
+		<property name="hibernate.connection.pool_size">10</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
-        <!-- 
 		<property name="hibernate.bytecode.use_reflection_optimizer">false</property>
         <property name="hibernate.search.autoregister_listeners">false</property>
         <property name="hibernate.validator.apply_to_ddl">false</property>
-         -->
 		
 		
 		<mapping resource="mx/teca2015/database/teca/entity/Audiogroup.hbm.xml" />
@@ -43,7 +37,6 @@
 		<mapping resource="mx/teca2015/database/teca/entity/Tblocr.hbm.xml" />
 		<mapping resource="mx/teca2015/database/teca/entity/Tblrelris.hbm.xml" />
 		<mapping resource="mx/teca2015/database/teca/entity/Tblris.hbm.xml" />
-		<mapping resource="mx/teca2015/database/teca/entity/Tblrisimg.hbm.xml" />
 		<mapping resource="mx/teca2015/database/teca/entity/Tblstoria.hbm.xml" />
 		<mapping resource="mx/teca2015/database/teca/entity/Tblvideo.hbm.xml" />
 		<mapping resource="mx/teca2015/database/teca/entity/Tlkpfruib.hbm.xml" />
